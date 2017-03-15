@@ -11,7 +11,7 @@
     "demo_sites": {},
     "gcmpn": "sorce-moodle-1",
     "customurlscheme": "moodlemobile",
-    "presets" : {"url": "http://leoneconnect.net/elearning", "username": ""},
+    "siteurl": "http://sorce.online/",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
 }
