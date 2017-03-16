@@ -23,7 +23,115 @@
     <script src="lib/chart.js/dist/Chart.js"></script>
     <script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
     <script src="build/mm.bundle.js"></script>
-    <style></style> <!-- Empty style to make easier to test styles using Inspector. -->
+    <style>
+	.bar-side-menu 
+	{
+		background-color: white;
+		color: black;
+		background-image: url("img/logo.png");
+		background-repeat: no-repeat;
+		background-position: 80% 50%;
+		background-size: 20% 65%;
+		border-bottom: 1px solid black;
+	}
+	
+	.bar-side-menu .item-avatar h2
+	{
+		color:#f9bf3b; font-weight:bold;
+	}
+	
+	.bar-side-menu .item-avatar p
+	{
+		color:#f9bf3b;
+	}
+	
+	.bar-content
+	{
+		background-color: #f9bf3b;
+	}
+ 
+	.button.button-positive
+	{
+		border-color: blue;
+		background-color: blue;
+		color: #fff;
+	} 
+	
+	a.item, .mm-grades-table a.itemcenter
+	{
+		background-color:#F2F2F2;
+	}
+ 
+	.item-divider
+	{
+		background-color: #fafafa;
+	}
+	
+	.ion-ionic:before
+	{
+		content: "\f357";
+	}
+	.ion-ionic
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-home
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-ios-bell
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-chatbox
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-calendar
+	{
+		color: #4CC0EE;
+	}
+	
+	
+	.ion-folder
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-earth
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-help-buoy:before
+	{
+		content: "\f149";
+	}
+	.ion-help-buoy
+	{
+		color: #4CC0EE;
+	}
+	
+	.ion-gear-b
+	{
+		color: #ED501A;
+	}
+	
+	.ion-log-out
+	{
+		color: #ED501A;
+	}
+	
+	.mm-sidemenu-menu .item .badge
+	{
+		background-color:red;
+	}
+
+	</style> <!-- Empty style to make easier to test styles using Inspector. -->
   </head>
   <body ng-app="mm">
     <ion-nav-view></ion-nav-view>
