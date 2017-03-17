@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.moodle.sorce" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xlmns:gap= "http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" versionCode ="3">
+<widget id="com.moodle.sorce" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xlmns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" versionCode ="3">
   <name>SOrCE</name>
   <description>SOrCE Moodle Mobile app</description>
   <author href="www.needs.com.lb" email="raramadan@needs.com.lb">NEEDS</author>
